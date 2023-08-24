@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>20-maktab</title>
+    <link rel="stylesheet" href="css/create.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="logo">
+            <img src="img/profile.jpg" alt="20-maktab">
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="logo">
+                <img src="img/profile.jpg" alt="20-maktab">
+            </div>
+            <ul>
+                <li>
+                    <a href="home.html">Asosiy</a>
+                </li>
+                <li>
+                    <a href="round.html">To`garak</a>
+                </li>
+                <li>
+                    <a href="news.html">Yangiliklar</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="table.html">Mundarija</a>
+                </li>
+                <li>
+                    <select name="links" size="1" onchange="window.location.href=this.value;">
+                        <option value="#">Boshqalar</option>
+                        <option value="Profile.html">Profil</option>
+                    </select>
+                </li>
+            </ul>
+        </nav> 
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+    <!-- /header section -->
+
+    <!-- Upload post section -->
+    <section>
+        <div class="create__post">
+            <form action="#">
+                <div class="filed">
+                    <h3>Rasm tanlang: </h3>
+                    <div class="item">
+                        <input type="file">
+                        <h2>fayl yuklash</h2>
+                    </div>
+                </div>
+                <div class="filed">
+                    <h3>Sinf: </h3>
+                    <p>11-"A"</p>
+                </div>
+                <div class="filed">
+                    <h3>Izoh: </h3>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Shu yerga yozing..." required></textarea>
+                </div>
+                <button>Yaratish</button>
+            </form>
+        </div>
+    </section>
+    <!-- /Upload post section -->
+
+
+</body>
+</html>

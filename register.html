@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 </head>
 <body>
   
@@ -37,14 +38,19 @@
             </div>
             <div class="filed">
               <h3>Parol:</h3>
-              <input type="text" placeholder="Parolingizni kiriting..." required>
+              <input type="text" class="pass" placeholder="Parolingizni kiriting..." required>
             </div>
             <div class="filed">
               <h3>Tasdiq Parol:</h3>
-              <input type="text" placeholder="Parolingizni tasdiqlang..." required>
+              <input type="text" class="pass" placeholder="Parolingizni tasdiqlang..." required>
+            </div>
+            <input type="checkbox" id="checkbox"><span>Parolni ko`rish</span>
+            <div class="filed">
+              <h3>Sinf(Katta harf bilan):</h3>
+              <input type="text" placeholder="11-A ko`rinishida...!" required>
             </div>
             <div class="button">
-              <input type="submit" value="Saqlash">
+              <input type="submit" class="button_href" value="Saqlash">
             </div>
             <div class="link">
               <p>Sizda accaunt bormi?</p>
@@ -54,6 +60,6 @@
       </form>
     </div>
   </section>
-
+  <script src="js/register.js"></script>
 </body>
 </html>

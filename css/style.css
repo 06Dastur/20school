@@ -44,10 +44,23 @@ body{
     background: #eef0f5;
 }
 
+.blur-line{
+    display: inline-block;
+    margin-left: 0.32rem;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159,0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+    position: relative;
+    top: -2px;
+}
 
 
-img{
-    width: 100%;
+
+
+.logo img{
+    width: 96%;
 }
 
 header{

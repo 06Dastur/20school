@@ -26,27 +26,29 @@ section{
     text-align: left;
 }
 
-.create__post button{
-    width: 90%;
-    height: 40px;
-    margin: 10px 5%;
-    border-radius: 25px;
-    font-size: 20px;
-}
 
 .item input{
     height: 40px;
-    opacity: 0;
     z-index: 2;
+    border: 1px dashed rgb(0, 136, 255);
+    border-radius: 10px;
+    width: 100%;
+    padding: 8px 10px;
 }
 
-.item h2{
-    margin-top: -40px;
+
+.button_href {
+    display: block;
+    width: 90%;
     height: 40px;
-    text-transform: uppercase;
-    padding: 5px;
-    border: 1px solid orangered;
-    width: 100%;
+    margin: 5px 5%;
+    background-color: rgb(0, 136, 255);
+    color: #fff;
+    padding: 7px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
 }
 
 @media only screen and (max-width: 800px){

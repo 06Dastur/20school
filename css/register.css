@@ -6,8 +6,7 @@
 body{
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.4)),
-              url("https://cdn1.img.sputniknews.uz/img/07e4/0a/0a/15156945_0:4:1248:710_1920x0_80_0_0_f9caa8d26586bb708c562797c482c0fe.jpg") center/cover no-repeat fixed;
+  background:  url('../img/school.jpg') center/cover no-repeat fixed;
 }
 
 .section-container{
@@ -103,14 +102,6 @@ body{
   border: none;
 }
 
-.button input{
-  width: 90%;
-  height: 45px;
-  border-radius: 25px;
-  font-size: 20px;
-  margin: 20px 5%;
-}
-
 .link p{
   font-size: 18px; 
   display: inline-block;
@@ -120,6 +111,30 @@ body{
   text-decoration: none;
   font-size: 20px;
   color: aqua;
+}
+
+.button_href {
+  display: block;
+  width: 90%;
+  height: 40px;
+  margin: 5px 5%;
+  background-color: rgb(0, 136, 255);
+  color: #fff;
+  padding: 7px 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+#checkbox{
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+#checkbox a{
+  display: block;
+  margin: 0;
 }
 
 @media only screen and (max-width: 850px){

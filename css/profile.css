@@ -196,6 +196,28 @@ html{
     grid-template-columns: auto auto;
 }   
 
+.button_href {
+    display: block;
+    width: 90%;
+    height: 40px;
+    margin: 5px 5%;
+    background-color: rgb(0, 136, 255);
+    color: #fff;
+    padding: 7px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.button_href:hover{
+    opacity: 0.7;
+}
+
+.red{
+    background-color: rgba(245, 27, 27, 0.884);
+}
+
 .inputBox{
     margin: 10px;
 }
@@ -210,14 +232,8 @@ html{
     height: 40px;
     padding-left: 10px;
     font-size: 20px;
-}
-
-.edit__container button{
-    width: 98%;
-    height: 40px;
-    margin: 0 1%;
-    border-radius: 25px;
-    font-size: 20px;
+    border: 1px solid aqua;
+    border-radius: 10px;
 }
 
 .error__meesage{
@@ -240,7 +256,8 @@ html{
 
 .inputBox p{
     margin-top: -38px;
-    border: 1px solid orangered;
+    border: 1px solid aqua;
+    border-radius: 10px;
     font-size: 20px;
     height: 40px;
     padding: 8px;

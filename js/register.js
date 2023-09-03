@@ -1,6 +1,12 @@
-let checkbox = document.getElementById("input[type='password']"),
-    input = document.getElementsByClassName("pass");
+const pswBtn = document.querySelector(".filed input[type='password']"),
+    togleBtn = document.querySelector(".filed i");
 
-checkbox.onclick = () => {
-  
+togleBtn.onclick = () => {
+    if(pswBtn.type == "password"){
+        pswBtn.type = "text";
+        togleBtn.classList.add("active");
+    }else{
+        pswBtn.type = "password";
+        togleBtn.classList.remove("active");
+    }
 }

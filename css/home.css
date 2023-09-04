@@ -72,7 +72,6 @@
 .view_blog-image{
     width: 110%;
     margin: 0 -2%;
-    border: 2px solid grey;
     background-color: #fff;
     border-radius: 10px;
     grid-column: 1/2;
@@ -107,13 +106,76 @@
     font-size: 40px;
 }
 
+/* end view blog */
 
 
+/* start payment section */
+
+.payment__section{
+    width: 80%;
+    margin: 10px auto 40px;
+    padding: 20px;
+}
+
+.all_image{
+    width: 100%;
+    height: 450px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.all_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bloging__container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.bloging_info{
+    width: 100%;
+}
+
+.bloging_info-title{
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: #05364d;
+}
+
+.bloging_info-paragraph{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #797979;
+}
+
+.bloging_info-image{
+    width: 33vw;
+    height: 400px;
+    padding: 5px;
+}
+
+.bloging_info-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.btn_blog{
+    margin-left: 13%;
+}
+
+/* end payment section */
 
 
-
-
-/* ?view blog */
 
 
 
@@ -174,7 +236,31 @@ footer{
         width: 80%;
         margin: 20px 10%;
     }
+    /* payment section */
     
+    .payment__section{
+        width: 98%;
+    }
+    
+    .all_image{
+        width: 98%;
+        margin: 0 0 40px;
+    }
+
+    .bloging_info-image{
+        width: 40vw;
+    }
+    
+    .bloging_info-title{
+        margin-top: 50px;
+    }
+
+    .btn_blog{
+        margin-left: 10%;
+    }
+
+
+    /* payment section */
 }
 
 @media only screen and (max-width: 900px){
@@ -192,7 +278,25 @@ footer{
         grid-column: 2/3;
     }
 
+    /* payment section */
+    .bloging__container{
+        grid-template-columns: auto;
+    }
 
+    .bloging_info-image{
+        width: 98%;
+        margin: 40px auto 30px;
+    }
+
+    .btn_blog{
+        margin-left: 13%;
+    }
+
+    .bloging_info-title{
+        margin-top: 0px;
+    }
+
+    /* payment section */
 }
 
 @media only screen and (max-width: 760px){
@@ -206,7 +310,17 @@ footer{
         padding: 10px;
     }
 
+    /* payment section */
+    .payment__section{
+        padding: 20px 5px;
+    }
 
+    .all_image{
+        width: 100%;
+        height: 280px;
+    }
+
+    /* payment section */
 
 }
 
@@ -256,6 +370,24 @@ footer{
         margin-top: 70px;
     }
 
+    /* payment section */
+    .all_image{
+        height: 200px;
+        margin-bottom: 20px;
+    }
 
+    .bloging_info-title{
+        font-size: 20px;
+    }
+
+    .bloging_info-paragraph{
+        font-size: 16px;
+    }
+
+    .btn_blog{
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    /* payment section */
    
 }

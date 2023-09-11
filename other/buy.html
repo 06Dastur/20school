@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog sotib olisdh</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/buy.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!-- header section -->
+    <header>
+        <div class="logo">
+            <img src="../img/school.jpg" alt="20-maktab">
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="logo">
+                <img src="../img/school.jpg" alt="20-maktab">
+            </div>
+            <ul>
+                <li>
+                    <a href="../home.html">Asosiy</a>
+                </li>
+                <li>
+                    <a href="../round.html">To`garak</a>
+                </li>
+                <li>
+                    <a href="../news.html">Yangiliklar</a>
+                </li>
+                <li>
+                    <a href="../blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="../table.html">Mundarija</a>
+                </li>
+                <li>
+                    <select name="links" size="1" onchange="window.location.href=this.value;">
+                        <option value="#">Boshqalar</option>
+                        <option value="../Profile.html">Profil</option>
+                    </select>
+                </li>
+            </ul>
+        </nav> 
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+    <!-- /header section -->
+
+    <!-- buy section -->
+    <section class="buy-section">
+        <div class="buy-section__buying">
+            <img src="../ilustration/buying_admin.png" alt="">
+        </div>
+        <div class="buy-section__understand">
+            <h1 class="buy-section__title">Adminlik huquqini sotib olish ketma-ketliklari!</h1>
+            <ol>
+                <li>Berilgan karta nomerini nusxalab olasiz! </li>
+                <li>Payme ilovasi orqali <p class="discount">10$</p> <p class="discounts">59% chegirma bilan</p> 50 000 so`m tolov qilasiz! </li>
+                <li>Tolov yanuklanganidan keyin pul tushgan holatini screen shot qilib olasiz! </li>
+                <li>Olingan screen shotni Rasm yuklash orqali tanlaysiz! </li>
+                <li>Ko`rsatilgan malumotlarni to`ldirasiz va To`ladim tugmasini bosasiz! </li>
+            </ol>
+            <div class="buy-section__not-know">
+                <h1>To`lov rasmi quyidagicha:</h1>
+                <div class="buy-section__know-image">
+                    <img src="../ilustration/payme.jpg" alt="">
+                </div>
+            </div>
+            <div class="buy-section__not-know">
+                <h1>Fiskal chek identifikatori quyidagicha:</h1>
+                <div class="buy-section__know-image chek">
+                    <img src="../ilustration/payed.jpg" alt="">
+                </div>
+            </div>
+
+            <h1 class="buy-section__title top">muhum eslatma!</h1>
+            <p class="buy-section__notification">
+                Oldin qilingan to`lovlarni qayta yuklash yoki soxta tolovlar uchun Tizimlashtirilgan Maktab G`oyasi tomonidan jarima mavjud!
+            </p>
+        </div>
+        <div class="buy-section__container">
+            <div class="buy-section__image-item">
+                <img src="../ilustration/boy_now.png" alt="">
+            </div>
+            <div class="buy-section__infoms">
+                <h1 class="buy-section__title-info">To`lov malumotlar</h1>
+                <ol>
+                    <li>Karta: 9860600404301985</li>
+                    <li>Shaxs: USMONOV G`AYRATBEK</li>
+                    <li>To`lov turi: Payme</li>
+                </ol>
+                <h1 class="buy-section__title-info">Admin sotib olish</h1>
+                <div class="error__message">Xatolik sodir bo`ldi!</div>
+                <form action="#" method="post">
+                    <div class="filed">
+                        <label>Tolov qilingan karta raqami:</label>
+                        <input type="text" placeholder="1234123412341234" required>
+                    </div>
+                    <div class="filed">
+                        <label>Fiskal chek identifikatori:</label>
+                        <input type="text" placeholder="xxxxxxxx" required>
+                    </div>
+                    <div class="filed">
+                        <label>To`lov rasmi:</label>
+                        <input type="file" accept="image/png, image/jpeg, image/jpg" required>
+                    </div>
+                    <button class="button_href">To`ladim</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /buy section -->
+    
+</body>
+</html>

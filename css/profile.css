@@ -91,12 +91,10 @@ html{
 
 .item__img{
     width: 100%;
-    height: 200px;
 }
 
 .item__img img{
     width: 100%;
-    height: 100%;
     border-radius: 10px;
 }
 
